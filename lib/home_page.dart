@@ -72,6 +72,7 @@ class _HomePageState extends State<HomePage> {
             //Gride View
             Expanded(
               child: GridView.builder(
+                  itemCount: 7,
                   gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                     crossAxisCount: 2,
                     crossAxisSpacing: 4,
