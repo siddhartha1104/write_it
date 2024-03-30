@@ -14,9 +14,14 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Write it',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
+          appBarTheme: const AppBarTheme(
+            // color: Color.fromARGB(255, 211, 240, 209),
+            color: Color.fromARGB(255, 254, 253, 237),
+          ),
+          fontFamily: 'Poppins',
+          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+          useMaterial3: true,
+          scaffoldBackgroundColor: const Color.fromARGB(255, 254, 253, 237)),
       home: const HomePage(),
     );
   }
